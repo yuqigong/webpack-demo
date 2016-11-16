@@ -1,0 +1,19 @@
+@import "base";
+
+// pixels to rems
+@function r( $px ) {
+    @if $px != 0 {
+        @return ($px+0.01) / $baseFontSize * 1rem;
+    } @else {
+        @return 0;
+    }
+}
+
+// pixels to em
+@function em( $px ) {
+    @if $px != 0 {
+        @return ($px+0.01) / $baseFontSize * 1em;
+    } @else {
+        @return 0;
+    }
+}

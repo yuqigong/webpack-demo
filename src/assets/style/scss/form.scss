@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import "base";
+
+.frm-inpt {
+    width: 95%;
+    height: 24px;
+    color: $theme-color;
+    line-height: normal;
+    font-size: 14px;
+    vertical-align: top;
+    text-indent: 5px;
+    padding: 4px 0;
+    border: 0 none;
+    -webkit-tap-highlight-color: transparent;
+}
+.frm-get-tips {
+    width: 14px;
+    height: 14px;
+    background: url("../../images/icon-help.png") no-repeat;
+    background-size: 14px;
+    display: block;
+}
+
+.frm-get-code, .frm-get-all{
+    color: $theme-orange;
+    font-size: 12px;
+    min-width: 50px;
+    height: 24px;
+    padding: 0 5px;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    border: 1px solid $theme-orange;
+    background-color: #fff;
+}
+
+.frm-get-code.disabled, .frm-remain-time {
+    //border: 0 none;
+    //background-color: $theme-gray;
+}
+.frm-get-code {
+    width: 70px;
+}
+.frm-get-all {
+    background-color: #fff;
+    border: 1px solid #FA504D;
+    color: #FA504D;
+}
+

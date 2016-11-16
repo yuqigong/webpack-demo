@@ -1,0 +1,22 @@
+$baseFontSize: 14;
+$baseFontSize_px: 14px;
+
+$theme-color: #282828;
+$theme-red: #F85252;
+$theme-gray: #656D78;
+$theme-blue: #5C9DED;
+$theme-black: #000000;
+
+$theme-blue1: #4EA0F4;
+$theme-gray1: #EDEDED;
+$theme-gray2: #c5c5c5;
+
+$theme-orange: #ff6d3b;
+
+$z-index: 10000;
+
+$mask-zindex: $z-index;
+$toast-zindex: $mask-zindex+100;
+$confirm-zindex: $mask-zindex+100;
+$loading-zindex: $mask-zindex+100;
+$header-index: $z-index - 100;
